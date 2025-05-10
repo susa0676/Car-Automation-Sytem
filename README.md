@@ -67,7 +67,7 @@ Main features:
 - Real-time buzzer alerts
 
 Code snippet:
-cpp
+```cpp
 if (distance < obstacleThreshold) {
   stopCar();
   if (checkObstacleOnRight()) {
@@ -79,6 +79,7 @@ if (distance < obstacleThreshold) {
 } else {
   moveForward();
 }
+```
 Full Arduino code is provided in the repository.
 ---
 
