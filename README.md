@@ -67,7 +67,7 @@ Main features:
 - Real-time buzzer alerts
 
 Code snippet:
-```cpp
+cpp
 if (distance < obstacleThreshold) {
   stopCar();
   if (checkObstacleOnRight()) {
